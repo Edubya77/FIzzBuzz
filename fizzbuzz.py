@@ -10,7 +10,7 @@ if userinput:
 
 else:
     minimum = input("What number should FizzBuzz start at?")
-    maximum = input("How high do you want FizzBuzz to go?")
+    maximum = input("How high do you want FizzBuzz to count today?")
     print("FizzBuzz counting up to", maximum)
 
 for i in range(minimum,maximum):
